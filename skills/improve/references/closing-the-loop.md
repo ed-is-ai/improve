@@ -29,8 +29,11 @@ The subagent prompt must contain:
 > occurs, stop immediately and report. Do not improvise around obstacles.
 > Commit your work in the worktree following the plan's git workflow section.
 > One override: SKIP the plan's instruction to update `plans/README.md` —
-> your reviewer maintains the index. When finished, reply with exactly the
-> report format below.
+> your reviewer maintains the index. Before reporting, audit every claim in
+> your report against an actual tool result from this session — only report
+> what you can point to evidence for; if a verification failed or was
+> skipped, say so plainly. When finished, reply with exactly the report
+> format below.
 
 3. The report format:
 
